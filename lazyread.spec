@@ -37,7 +37,7 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 
 install lr $RPM_BUILD_ROOT%{_bindir}
 
-%clean 
+%clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
