@@ -9,7 +9,7 @@ Source0:	http://www.seekrut.com/rk/lr-%{version}.tar.gz
 # Source0-md5:	874a8b3b2615fa7d816f51432d3fb4e7
 URL:		http://seekrut.com/rk/lazyread.html
 BuildRequires:	ncurses-devel
-BuildRoot:	%{tmpdir}/lr-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Lazyread is a program that auto-scrolls files on your screen in movie
