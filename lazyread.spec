@@ -1,4 +1,3 @@
-# TODO: CC and optflags
 Summary:	Program that auto-scrolls files on your screen in movie credit fashion
 Summary(pl):	Program automatycznie przewijajacy zawarto¶æ plików tekstowych na ekranie
 Name:		lazyread
@@ -7,7 +6,6 @@ Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://www.seekrut.com/rk/lr-%{version}.tar.gz
-Patch0:		lazyread-curses.patch
 URL:		http://seekrut.com/rk/lazyread.html
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/lr-%{version}-root-%(id -u -n)
@@ -28,10 +26,9 @@ prêdko¶ci, ogl±dania informacji o pliku, zatrzymywania itp.
 
 %prep
 %setup -q -n lr-%{version}
-%patch0 -p1
 
 %build
-%{__make}
+%{__cc} %{rpmcflags} %{rpmldflags} -Wall -o lr lr.c -I/usr/include/ncurses -lncurses
 
 %install
 rm -rf $RPM_BUILD_ROOT
