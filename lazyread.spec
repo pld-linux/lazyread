@@ -1,5 +1,5 @@
 Summary:	Program that auto-scrolls files on your screen in movie credit fashion
-Summary(pl):	Program automatycznie przewijaj±cy zawarto¶æ plików tekstowych na ekranie
+Summary(pl.UTF-8):   Program automatycznie przewijajÄ…cy zawartoÅ›Ä‡ plikÃ³w tekstowych na ekranie
 Name:		lazyread
 Version:	1.6
 Release:	1
@@ -18,12 +18,12 @@ your keyboard to manually scroll files. There are a few commands you
 can enter while the program is running such as changing the scroll
 speed, viewing file info, pausing etc.
 
-%description -l pl
-lazyread to program automatycznie przewijaj±cy zawarto¶æ plików na
-ekranie w sposób podobny do napisów koñcowych w filmach. Pozwala
-czytaæ bez potrzeby dotykania klawiatury w celu przewijania plików.
-W czasie dzia³ania programu dzia³a kilka poleceñ, s³u¿±cych do zmiany
-prêdko¶ci, ogl±dania informacji o pliku, zatrzymywania itp.
+%description -l pl.UTF-8
+lazyread to program automatycznie przewijajÄ…cy zawartoÅ›Ä‡ plikÃ³w na
+ekranie w sposÃ³b podobny do napisÃ³w koÅ„cowych w filmach. Pozwala
+czytaÄ‡ bez potrzeby dotykania klawiatury w celu przewijania plikÃ³w.
+W czasie dziaÅ‚ania programu dziaÅ‚a kilka poleceÅ„, sÅ‚uÅ¼Ä…cych do zmiany
+prÄ™dkoÅ›ci, oglÄ…dania informacji o pliku, zatrzymywania itp.
 
 %prep
 %setup -q -n lr-%{version}
