@@ -1,5 +1,5 @@
 Summary:	Program that auto-scrolls files on your screen in movie credit fashion
-Summary(pl.UTF-8):   Program automatycznie przewijający zawartość plików tekstowych na ekranie
+Summary(pl.UTF-8):	Program automatycznie przewijający zawartość plików tekstowych na ekranie
 Name:		lazyread
 Version:	1.6
 Release:	1
